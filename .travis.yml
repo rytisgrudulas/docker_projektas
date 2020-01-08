@@ -4,7 +4,7 @@ services:
     - docker
 
 before_install:
-    - docker build -t  rytisgrudulas/docker_projektas  -f Dockerfile.dev .  
+    - docker build -t  rytisgrudulas/docker_projektas -f Dockerfile.dev .  
 
-    script:
-        - docker run -e CI=true rytisgrudulas/docker_projektas npm run test 
+script:
+    - docker run -e CI=true rytisgrudulas/docker_projektas npm run test 
