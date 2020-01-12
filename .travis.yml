@@ -17,7 +17,8 @@ script:
     app: "docker-react"
     env: "DockerReact-env" 
     bucket_name: "elasticbeanstalk-eu-central-1-189952242937"
-    access_key_id: $AWS_ACCESS_KEY
-    secret_access_key: $AWS_SECRET_KEY
+    path: "docker-react"
+    access_key_id: "$AWS_ACCESS_KEY"
+    secret_access_key: "$AWS_SECRET_KEY"
 
     
