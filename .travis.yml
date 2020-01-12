@@ -13,10 +13,10 @@ script:
   deploy:
     edge: true
     provider: elasticbeanstalk
-    region: eu-central-1
-    app: docker-react
-    env: DockerReact-env 
-    bucket_name: elasticbeanstalk-eu-central-1-189952242937
+    region: "eu-central-1"
+    app: "docker-react"
+    env: "DockerReact-env" 
+    bucket_name: "elasticbeanstalk-eu-central-1-189952242937"
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
 
